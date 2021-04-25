@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Projects/Components/Bottonend.css";
+import "../pages/Buttonend.css";
 
 function Buttonend() {
     return (

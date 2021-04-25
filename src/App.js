@@ -1,8 +1,9 @@
 import React from "react";
 
-import NavBar from "../pages/NavBar";
-import Buttonend from "../pages/Buttonend.js";
-import SideCheckbox from "../pages/SideCheckbox.js";
+import TopPage from "./pages/TopPage";
+import Toptext from "./pages/Toptext"
+import Buttonend from "./pages/Buttonend"
+import SideCheckbox from "./pages/sidebarcheckbox"
 import Navbar from './Components/Navbar'
 import Banner from './Components/Banner'
 import Contentoffer from './Components/Contentoffer'
@@ -12,6 +13,8 @@ import Contentstart from './Components/Contentstart'
 import Footer from './Components/Footer'
 import Projects from "./pages/Projects/Projects"
 import "./App.css";
+
+
 function App() {
   return (
       <div>
@@ -22,12 +25,15 @@ function App() {
       <Contentcomp />
       <Contentstart />
       <Footer />
-      <NavBar />
+      <Navbar />
+      <Toptext />
    <div className="sidePic">
         <SideCheckbox />
+        <div className="pics">
         <Projects />
+        </div>
    </div>
-        <Buttonend />
+   <Buttonend />
       <Footer />
     </div>
   );

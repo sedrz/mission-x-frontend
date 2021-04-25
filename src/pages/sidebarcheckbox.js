@@ -1,6 +1,6 @@
 import React from "react";
-import "./SideCheckbox.css";
-class SideCheckbox extends React.Component {
+import "./sidebarcheckbox.css";
+class sidebarcheckbox extends React.Component {
   state = {
     Colornames: {
       Free: false,
@@ -63,4 +63,4 @@ class SideCheckbox extends React.Component {
     );
   }
 }
-export default SideCheckbox;
+export default sidebarcheckbox;

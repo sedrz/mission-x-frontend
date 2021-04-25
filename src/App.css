@@ -131,8 +131,13 @@
   padding: 5px;
 }
 .sidePic {
-  display: grid;
-  justify-items: start; 
-  grid-column: start-line;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 100px;
+}
+.pics {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
   margin: 0px 100px;
 }
