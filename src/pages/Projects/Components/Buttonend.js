@@ -1,10 +1,10 @@
 import React from "react";
 
-import "../pages/Buttonend.css";
+import "./Buttonend.css";
 
 function Buttonend() {
     return (
-<div className="endButtons">
+      <div className="endButtons">
         <button className="TopButton" >
           <a href="../logo2.png">BACK TO TOP</a>
         </button>
@@ -12,7 +12,7 @@ function Buttonend() {
         <button className="Dashboard">
           <a href="../Dashboard.js">BACK TO DASHBOARD</a>
         </button>
-     </div>
+      </div>
     );
 }
 export default Buttonend;

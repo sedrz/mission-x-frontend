@@ -130,14 +130,10 @@
   margin: 10px 5px 10px;
   padding: 5px;
 }
+
 .sidePic {
-  display: flex;
-  flex-direction: row;
-  margin: 0px 100px;
-}
-.pics {
-  display: flex;
-  flex-direction: row;
-  justify-items: flex-end;
+  display: grid;
+  justify-items: start; 
+  grid-column: start-line;
   margin: 0px 100px;
 }

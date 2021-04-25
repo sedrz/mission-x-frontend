@@ -86,7 +86,7 @@ max-height: 50px;
     display: flex;
     align-items: baseline;
 }
-.menu-user li a {
+.register-txt,.login-txt,.menu-user li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -128,7 +128,7 @@ max-height: 50px;
 display: inline;
 }
 .nav-box4 img {
-    max-height: 20px;
+    max-height: 25px;
 }
 .nav-box3 img {
     max-height: 15px;

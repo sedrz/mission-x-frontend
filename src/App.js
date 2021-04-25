@@ -1,39 +1,23 @@
 import React from "react";
+import Navbar from './components/Navbar/Navbar';
+import Banner from './components/Banner/Banner';
+import ContentOffer from './components/ContentOffer/ContentOffer';
+import ContentOption from './components/ContentOption/ContentOption';
+import KeyCompetencies from './components/KeyCompetencies/KeyCompetencies';
+import ContentStart from './components/ContentStart/ContentStart';
+import Footer from './components/Footer/Footer';
 
-import TopPage from "./pages/TopPage";
-import Toptext from "./pages/Toptext"
-import Buttonend from "./pages/Buttonend"
-import SideCheckbox from "./pages/sidebarcheckbox"
-import Navbar from './Components/Navbar'
-import Banner from './Components/Banner'
-import Contentoffer from './Components/Contentoffer'
-import Contentb from './Components/Contentb'
-import Contentcomp from './Components/Contentcomp'
-import Contentstart from './Components/Contentstart'
-import Footer from './Components/Footer'
-import Projects from "./pages/Projects/Projects"
-import "./App.css";
-
+import "./App.scss";
 
 function App() {
   return (
-      <div>
+    <div>
       <Navbar />
       <Banner />
-      <Contentoffer />
-      <Contentb />
-      <Contentcomp />
-      <Contentstart />
-      <Footer />
-      <Navbar />
-      <Toptext />
-   <div className="sidePic">
-        <SideCheckbox />
-        <div className="pics">
-        <Projects />
-        </div>
-   </div>
-   <Buttonend />
+      <ContentOffer />
+      <ContentOption />
+      <KeyCompetencies />
+      <ContentStart />
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 .footer_container {
-margin: 0 auto;
+    margin: 0 auto;
     background-color: skyblue;
+    margin-bottom: 0%;
 }
 .footer_subcon {
     max-width: 960px;

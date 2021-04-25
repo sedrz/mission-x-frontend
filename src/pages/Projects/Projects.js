@@ -18,8 +18,29 @@ import Project13 from "../../assets/projects/Project13.jpg";
 import Project14 from "../../assets/projects/Project14.jpg";
 import Project15 from "../../assets/projects/Project15.jpg";
 
-
 const Projects = () => {
+ <div>
+  <h3 className="h3">Projects</h3>
+  <p className="p1">
+  Welcome to the project library. You can use the filters on the roght to
+   help you search for specific Projects.
+  </p>
+
+ <div className="buttons">
+   <button className="button">
+     <a href="/Beginner.js">BEGINNER</a>
+   </button>
+ <button className="button">INTERMEDIATE</button>
+ <button className="button">ADVANCED</button>
+
+  <div className="numbers">
+     <p className="show">Show</p>
+     <button className="number">25</button>
+     <button className="number">50</button>
+     <button className="number">100</button>
+   </div>
+</div>
+</div>
   const projects = [
     
     { title: "Introduction", difficulty: "BEGINNER", imageURL: Project01, ActivityType: "Animation" },
