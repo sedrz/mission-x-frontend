@@ -1,0 +1,66 @@
+.banner-container {
+	margin: 0 auto;
+}
+.banner-bg {
+	height: 300px;
+	background-image: url("../../img/baby2.png");
+	background-size: cover;
+	overflow: hidden;
+}
+.banner-subcon {
+	max-width: 960;
+	align-items: top;
+	margin: auto;
+	padding-top: 30px;
+	justify-content: center;
+	margin-left: 20%;
+}
+.banner-text {
+	color: black;
+	overflow-wrap: break-word;
+	max-width: 350px;
+}
+.banner-btn {
+	background: white;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	color: black;
+	border: 2px solid #43c1f7;
+	transition: 0.3s;
+	margin-top: 1rem;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-left: 2rem;
+	font-weight: bold;
+	&:hover {
+		border: 1px solid white;
+		background: transparent;
+		color: green;
+	}
+}
+.banner-btn2 {
+	background: #ee2082;
+	display: inline-block;
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+	color: white;
+	border: 2px solid transparent;
+	transition: 0.3s;
+	margin-top: 1rem;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-left: 4rem;
+	font-size: 14px;
+	font-weight: bold;
+	&:hover {
+		border: 2px solid white;
+		background: transparent;
+		color: green;
+	}
+}
+.smallprint {
+	font-size: 9px;
+	text-align: right;
+}

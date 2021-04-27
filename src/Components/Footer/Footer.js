@@ -1,53 +1,62 @@
 import React from "react";
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
-import Row from '@material-ui/core/Row';
-// import Column from '@material-ui/core/Column';
-import "./Footer.css"
-  
-function Footer () {
+import "./style.css";
+
+function Footer() {
   return (
-    <Box className="Box">
-  <Container className="Container">
-        <Row className="Row">
-          <Column className="Column">
-            <h3>COMPANY</h3>
-           
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Creers</a></li>
-            <li><a href="#">Partners</a></li>
-          </Column>
-          <Column>
-            <h3>COURSES</h3>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Teachers</a></li>
-            <li><a href="#">Parents</a></li>
-            <li><a href="#">Resources</a></li>
-          </Column>
-          <Column>
-            <h3>SUPPORT</h3>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Helpdesk</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </Column>
-          <Column>
-            <h3>LEGAL</h3>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </Column>
-          <Column>
-            <h3>LEVELUP WORKS</h3>
-            <p>LevelUP Works is an Auckland-basedenterprise dedicated to developing gamee-based learning software to help teachers in response to the New Zealand Digital Technologies & Hangarau Matihiko.</p>
-            
-      <a href="mailto: alan@levelupworks.com"> alan@levelupworks.com</a>
+    <div className="footer_container">
+        <div className="footer_subcon">
+      <div className="content-a">
+        <ul>
+         <h4><li>COMPANY</li></h4>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Partners</li>
+        </ul>
+      </div>
+      <div className="content-b">
+        <ul>
+        <h4><li>COURSES</li></h4>
+          <li>Register</li>
+          <li>Login</li>
+          <li>Projects</li>
+          <li>Teacher</li>
+          <li>Parents</li>
+          <li>Resources</li>
+        </ul>
+      </div>
+      <div className="content-c">
+     
+        <ul>
+        <h4><li>SUPPORT</li></h4>
+          <li>FAQs</li>
+          <li>Helpdesk</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div className="content-d">
       
-      <p>(021) 668 185</p>
-     </Column>      
-    </Row>
-   </Container>
-  </Box>
+        <ul>
+        <h4><li>LEGAL</li></h4>
+          <li>Terms Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div className="content-e">
+      
+        <ul>
+        <h4><li>LevelUp Work</li></h4>
+          <li>LevelUp Works is an Auckland-based enterprise</li>
+          <li>dedicated to developing game-based learning</li>
+          <li>software to help to help teachers in response to the</li>
+          <li>New Zealand Digital Technologies</li>
+          <li>Matihiko.</li>
+          <li>alan@levelupworks.com</li>
+          <li>021 668 185</li>
+        </ul>
+      </div>
+      </div>
+    </div>
   );
-};
+}
+
 export default Footer;
