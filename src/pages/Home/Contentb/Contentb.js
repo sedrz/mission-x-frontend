@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Contentb.css"
-import creative from "../assets/img/creative.png"
-import thinking from "../assets/img/thinking.png"
-import communication from "../assets/img/communication.png"
-import tech from "../assets/img/tech.png"
+import creative from "../../../assets/img/creative.png"
+import thinking from "../../../assets/img/thinking.png"
+import communication from "../../../assets/img/communication.png"
+import tech from "../../../assets/img/tech.png"
 
 function Contentb() {
     return (

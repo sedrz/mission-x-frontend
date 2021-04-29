@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Contentoffer.css"
-import lion from "../assets/img/lion.png"
-import animation from "../assets/img/animation.png"
-import game from "../assets/img/game.png"
-import chatbot from "../assets/img/chatbot.png"
-import augmented from "../assets/img/augmented.png"
+import lion from "../../../assets/img/lion.png"
+import animation from "../../../assets/img/animation.png"
+import game from "../../../assets/img/game.png"
+import chatbot from "../../../assets/img/chatbot.png"
+import augmented from "../../../assets/img/augmented.png"
 
 function Contentoffer() {
     return (

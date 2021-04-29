@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contentcomp.css"
-import star from "../assets/img/star.png"
+import star from "../../../assets/img/star.png"
 
 function Contentcomp() {
     return (

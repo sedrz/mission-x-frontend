@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contentstart.css"
-import student from "../assets/img/student.png"
+import student from "../../../assets/img/student.png"
 
 function Contentstart() {
     return (

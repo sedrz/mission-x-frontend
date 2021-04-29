@@ -1,13 +1,20 @@
-import Banner from './sharedComponents/Banner/Banner'
-import Contentoffer from './Components/Contentoffer'
-import Contentb from './Components/Contentb'
-import Contentcomp from './Components/Contentcomp'
-import Contentstart from './Components/Contentstart'
+import Banner from "./Banner/Banner";
+import Contentoffer from "./Contentoffer/Contentoffer";
+import Contentb from "./Contentb/Contentb";
+import Contentcomp from "./Contentcomp/Contentcomp";
+import Contentstart from "./Contentstart/Contentstart";
 
+function Home() {
+  return (
+    <div>
+      <Banner />
+      <Contentoffer />
+       <Contentb /> 
+     <Contentcomp />
+      <Contentstart /> 
+   
+    </div>
+  );
+}
 
-
-<Banner />
-<Contentoffer />
-<Contentb />
-<Contentcomp />
-<Contentstart />
+export default Home;

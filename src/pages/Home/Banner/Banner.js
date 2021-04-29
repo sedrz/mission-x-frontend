@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css"
-import baby from "../assets/img/baby2.png"
 
 function Banner() {
   return (
