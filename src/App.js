@@ -21,7 +21,7 @@ function App() {
         <Redirect to="/home" />
       </Route>
         <Route exact path="/projects" component={Projects}></Route>
-        <Route exact path="/home" component={Home}></Route>
+        <Route path="/home" component={Home}></Route>
         <Route exact path="/StudentPage" component={StudentPage}></Route>
         <Route exact path="/StudentProfile" component={StudentProfile}></Route>
 
