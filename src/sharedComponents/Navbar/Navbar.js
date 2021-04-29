@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navbar.css";
-import logolevelup from "../assets/img/logolevelup.png";
-import register from "../assets/img/register.png";
-import nzflag from "../assets/img/nzflag.jpg";
-import maoriflag from "../assets/img/maoriflag.jpg";
+import logolevelup from "../../assets/img/logolevelup.png";
+import register from "../../assets/img/register.png";
+import nzflag from "../../assets/img/nzflag.jpg";
+import maoriflag from "../../assets/img/maoriflag.jpg";
 
 function Navbar() {
   return (
