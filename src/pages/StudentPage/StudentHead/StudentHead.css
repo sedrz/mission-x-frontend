@@ -1,0 +1,83 @@
+.uph_container {
+    margin: 0 auto;
+    background-color:#b2e4fb
+}
+
+.uph_subcont {
+    width: 960px;
+    height: 80px;
+}
+
+
+.uph_subcont_right {
+    width: 460px;
+    height: 80px;
+    margin-left: 750px;  
+}
+
+.uph_subcont {
+    align-content: right;
+}
+
+.btn-yellow p {
+    padding: 1px 5px;
+}
+
+.btn-pink p {
+    padding: 1px 17px;
+}
+.btn-blue p {
+    padding: 1px 17px;
+}
+
+.btn-yellow {
+background: darkorange;
+display: inline;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 5px;
+padding-right: 5px;
+text-decoration: none;
+color: white;
+font-size: 14px;
+font-weight: bold;
+border-radius: 5px;
+margin: 10px;
+border: none;
+
+}
+.btn-pink {
+    background: #ee2082;
+    display: inline;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    
+
+}
+.btn-blue {
+    background: #43c1f2;
+    display: inline;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    
+  
+}
+

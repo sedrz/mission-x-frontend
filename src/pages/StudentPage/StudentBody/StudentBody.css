@@ -1,0 +1,46 @@
+.sectionUpb_area {
+    margin: 0 auto ;    
+    background-color:#b2e4fb;
+
+    
+}
+
+.Container_upb {
+max-width: 960px;
+margin: 0 auto;
+padding-bottom: 20px;
+}
+
+.sectionUpb_area_grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+background-color:#daf1fd;
+grid-area: auto;
+grid-gap: 35px;
+padding: 40px;
+border-radius: 25px;
+margin-bottom: 30px;
+
+}
+
+.sectionUpb_grid_item {
+text-align: center;
+
+background-color: white;
+padding: 10px;
+margin: 10 px;
+border-radius: 10px;
+
+}
+
+
+.sectionUpb_item_img img {
+width: 100%;
+}
+
+.sectionUpb_grid_item p {
+    text-align: center;
+    color: rgb(111, 111, 111);
+    font-size: 12px;
+    }
+
