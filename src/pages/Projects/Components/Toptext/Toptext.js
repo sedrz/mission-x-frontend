@@ -13,9 +13,7 @@ function Toptext() {
     </p>
   
    <div className="buttons">
-     <button className="button">
-       <a href="/Beginner.js">BEGINNER</a>
-     </button>
+     <button className="button">BEGINNER</button>
    <button className="button">INTERMEDIATE</button>
    <button className="button">ADVANCED</button>
   
