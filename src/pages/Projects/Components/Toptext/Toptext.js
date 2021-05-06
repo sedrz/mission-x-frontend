@@ -18,7 +18,6 @@ function Toptext() {
    <button className="button">ADVANCED</button>
   
     <div className="numbers">
-       <p className="show">Show</p>
        <button className="number">25</button>
        <button className="number">50</button>
        <button className="number">100</button>

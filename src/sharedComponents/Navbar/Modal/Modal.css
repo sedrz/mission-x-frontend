@@ -1,0 +1,91 @@
+.outer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.show {
+  display: block;
+  height: 80%;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  background-color: whitesmoke;
+  border: 50px;
+}
+
+.hide {
+  display: none;
+}
+.x {
+  padding: 10px;
+  border: none;
+  float: right;
+  background-color: aliceblue;
+}
+.RegisterLogin {
+  float: right;
+  padding: 15px;
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.verticalline {
+  height: 80vh;
+  margin-left: 1cm;
+}
+
+.students {
+  width: 165px;
+  height: 165px;
+  margin: 40px 0px 30px 40px;
+}
+
+.teachers {
+  width: 165px;
+  height: 165px;
+  margin: 40px 10px 30px 40px;
+}
+
+.LoginForm {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Email {
+  text-align: justify;
+  border-radius: 5px;
+  margin: 5px 0px 5px 40px;
+  height: 20px;
+  width: 150px;
+}
+.Password {
+  text-align: justify;
+  border-radius: 5px;
+  margin: 5px 0px 5px 40px;
+  height: 20px;
+  width: 150px;
+}
+
+.Login {
+  margin: 20px;
+  margin-left: 80px;
+  background-color: #f91c85;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 100px;
+}
+.Login:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  text-decoration-color: rgb(67, 192, 246);
+  text-decoration-thickness: 3px;
+}
